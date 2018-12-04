@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Portfolio from './Components/Portfolio';
+import LandingPage from './Components/LandingPage';
 
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
       <Router>
       <div>
        <Switch>
-       <Route exact path='/' component={Portfolio} />
+       <Route exact path='/' component={LandingPage} />
        </Switch>
       </div>
       </Router>
